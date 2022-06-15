@@ -1,0 +1,23 @@
+Log file created at: 2021/04/21 19:54:15
+Running on machine: KONSTANTIN
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0421 19:54:15.549098 14948 c_interface.cc:127] Logging enabled to .
+I0421 19:54:15.549098 14948 c_interface.cc:128] BigARTM version: v0.10.1
+I0421 19:54:15.549098 14948 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0421 19:54:15.549098 14948 c_interface.cc:274] Creating MasterModel (id=1)...
+I0421 19:54:15.550096 14948 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 12
+I0421 19:54:17.014617 14948 c_interface.cc:375] Pass 074827a9-dbc1-4395-97ef-14970a8ee331 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0421 19:54:17.014617 14948 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=074827a9-dbc1-4395-97ef-14970a8ee331, data_path=batches, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0421 19:54:17.014617 14948 dictionary_operations.cc:265] Found 2 batches in 'batches' folder
+I0421 19:54:17.301525 14948 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0421 19:54:17.375500 14948 dictionary_operations.cc:611] Dictionary name='074827a9-dbc1-4395-97ef-14970a8ee331' contains entries: author:539; text:26327; 
+I0421 19:54:47.256736 14948 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0421 19:54:47.256736 14948 c_interface.cc:274] Creating MasterModel (id=2)...
+I0421 19:54:47.257735 14948 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 12
+W0421 19:54:47.818554  2396 helpers.cc:231] File already exists: batches\aaaaaa.batch
+W0421 19:54:48.520323 14944 helpers.cc:231] File already exists: batches\aaaaab.batch
+I0421 19:54:48.647282 14948 c_interface.cc:375] Pass 1bc46dcc-d3e5-4a12-ac19-c10d17467407 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0421 19:54:48.648283 14948 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=1bc46dcc-d3e5-4a12-ac19-c10d17467407, data_path=batches, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0421 19:54:48.648283 14948 dictionary_operations.cc:265] Found 2 batches in 'batches' folder
+I0421 19:54:48.881206 14948 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0421 19:54:48.947189 14948 dictionary_operations.cc:611] Dictionary name='1bc46dcc-d3e5-4a12-ac19-c10d17467407' contains entries: author:539; text:26327; 

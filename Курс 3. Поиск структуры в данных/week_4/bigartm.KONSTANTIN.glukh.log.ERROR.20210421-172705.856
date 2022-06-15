@@ -1,0 +1,7 @@
+Log file created at: 2021/04/21 17:27:05
+Running on machine: KONSTANTIN
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0421 17:27:05.965042 13336 c_interface.cc:354] Dynamic exception type: class boost::filesystem::filesystem_error
+std::exception::what: boost::filesystem::create_directory: Системе не удается найти указанный путь: "school.txt\urnuuida5c403a0-a2ad-11eb-a030-1c872cb7f0a9"
+E0421 17:27:05.968041 13336 c_interface.cc:59] Dynamic exception type: class boost::filesystem::filesystem_error
+std::exception::what: boost::filesystem::create_directory: Системе не удается найти указанный путь: "school.txt\urnuuida5c403a0-a2ad-11eb-a030-1c872cb7f0a9"
